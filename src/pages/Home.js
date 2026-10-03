@@ -7,10 +7,11 @@ import { COLORS } from '../theme/colors';
 import LogoMainImg from '../assets/LogoMain.png';
 import LogoImg from '../assets/Logo.png';
 
-// Импорт изображений команды
-import MaximImg from '../assets/Maxim.PNG';
-import ArtemImg from '../assets/Artem.PNG';
-import TolikImg from '../assets/Tolik.PNG';
+// Импорт изображений команды — отключён вместе с разделом «Команда» (OpSec):
+// неиспользуемые импорты дают предупреждения ESLint, а Webpack всё равно публикует файлы в build/static/media.
+// import MaximImg from '../assets/Maxim.PNG';
+// import ArtemImg from '../assets/Artem.PNG';
+// import TolikImg from '../assets/Tolik.PNG';
 
 // Дорогой reveal-эффект с размытием
 const premiumReveal = {
@@ -748,6 +749,7 @@ const Home = () => {
       </section>
 
       {/* ИНФОРМАЦИЯ О РАЗРАБОТЧИКАХ */}
+      {/* OpSec: раздел «Команда» скрыт с публичного сайта (имена и фото сотрудников). Не удалять — восстановить, раскомментировав блок и импорты *Img вверху файла.
       <section id="team" className="section-padding" style={{ padding: '100px 40px', maxWidth: '1200px', margin: '0 auto', borderTop: `1px solid ${COLORS.border}` }}>
         <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={premiumReveal} style={{ marginBottom: '60px', textAlign: 'center' }}>
           <span style={{ color: COLORS.matrix, fontSize: '11px', fontWeight: '700', letterSpacing: '2px', display: 'block', marginBottom: '10px' }}>DEVELOPMENT TEAM</span>
@@ -786,6 +788,7 @@ const Home = () => {
           </PremiumBentoCard>
         </div>
       </section>
+      */}
 
       <footer style={{ padding: '40px', textAlign: 'center', borderTop: `1px solid ${COLORS.border}`, color: COLORS.textDark, fontSize: '12px', fontWeight: 300, letterSpacing: '0.5px' }}>
         <p>© 2026 Gelix Systems. Все права защищены. Разработано для критически важных медиа-сетей.</p>
