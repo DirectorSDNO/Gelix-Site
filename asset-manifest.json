@@ -1,18 +1,15 @@
 {
   "files": {
     "main.css": "/Gelix-Site/static/css/main.a876a3e8.css",
-    "main.js": "/Gelix-Site/static/js/main.30ed8b9b.js",
+    "main.js": "/Gelix-Site/static/js/main.a951e1d3.js",
     "static/media/LogoMain.png": "/Gelix-Site/static/media/LogoMain.76b7052c8085835a2294.png",
     "static/media/Logo.png": "/Gelix-Site/static/media/Logo.de4773125fc926c745ee.png",
-    "static/media/Maxim.PNG": "/Gelix-Site/static/media/Maxim.3e61f47a52a8002d7701.PNG",
-    "static/media/Tolik.PNG": "/Gelix-Site/static/media/Tolik.42fa7640224589764cce.PNG",
-    "static/media/Artem.PNG": "/Gelix-Site/static/media/Artem.ffa1f075e8beba7630c4.PNG",
     "index.html": "/Gelix-Site/index.html",
     "main.a876a3e8.css.map": "/Gelix-Site/static/css/main.a876a3e8.css.map",
-    "main.30ed8b9b.js.map": "/Gelix-Site/static/js/main.30ed8b9b.js.map"
+    "main.a951e1d3.js.map": "/Gelix-Site/static/js/main.a951e1d3.js.map"
   },
   "entrypoints": [
     "static/css/main.a876a3e8.css",
-    "static/js/main.30ed8b9b.js"
+    "static/js/main.a951e1d3.js"
   ]
 }
